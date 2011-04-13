@@ -25,10 +25,8 @@
 		2868767F1356350200011542 /* Unlocked.png in Resources */ = {isa = PBXBuildFile; fileRef = 286876721356350200011542 /* Unlocked.png */; };
 		286876801356350200011542 /* woo.wav in Resources */ = {isa = PBXBuildFile; fileRef = 286876731356350200011542 /* woo.wav */; };
 		286876811356350200011542 /* woohoo.wav in Resources */ = {isa = PBXBuildFile; fileRef = 286876741356350200011542 /* woohoo.wav */; };
-		286876921356353100011542 /* Cards.m in Sources */ = {isa = PBXBuildFile; fileRef = 286876861356353100011542 /* Cards.m */; };
 		286876931356353100011542 /* CheckItViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 286876881356353100011542 /* CheckItViewController.m */; };
 		286876941356353100011542 /* CheckItViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 286876891356353100011542 /* CheckItViewController.xib */; };
-		286876951356353100011542 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 2868768B1356353100011542 /* Deck.m */; };
 		286876961356353100011542 /* GetHintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2868768D1356353100011542 /* GetHintViewController.m */; };
 		286876971356353100011542 /* UnlockItViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2868768F1356353100011542 /* UnlockItViewController.m */; };
 		286876981356353100011542 /* UnlockItViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 286876901356353100011542 /* UnlockItViewController.xib */; };
@@ -62,13 +60,9 @@
 		286876721356350200011542 /* Unlocked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Unlocked.png; sourceTree = "<group>"; };
 		286876731356350200011542 /* woo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = woo.wav; sourceTree = "<group>"; };
 		286876741356350200011542 /* woohoo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = woohoo.wav; sourceTree = "<group>"; };
-		286876851356353000011542 /* Cards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cards.h; sourceTree = "<group>"; };
-		286876861356353100011542 /* Cards.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cards.m; sourceTree = "<group>"; };
 		286876871356353100011542 /* CheckItViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckItViewController.h; sourceTree = "<group>"; };
 		286876881356353100011542 /* CheckItViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckItViewController.m; sourceTree = "<group>"; };
 		286876891356353100011542 /* CheckItViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CheckItViewController.xib; sourceTree = "<group>"; };
-		2868768A1356353100011542 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
-		2868768B1356353100011542 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
 		2868768C1356353100011542 /* GetHintViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetHintViewController.h; sourceTree = "<group>"; };
 		2868768D1356353100011542 /* GetHintViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetHintViewController.m; sourceTree = "<group>"; };
 		2868768E1356353100011542 /* UnlockItViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnlockItViewController.h; sourceTree = "<group>"; };
@@ -109,13 +103,9 @@
 			isa = PBXGroup;
 			children = (
 				286876901356353100011542 /* UnlockItViewController.xib */,
-				286876851356353000011542 /* Cards.h */,
-				286876861356353100011542 /* Cards.m */,
 				286876871356353100011542 /* CheckItViewController.h */,
 				286876881356353100011542 /* CheckItViewController.m */,
 				286876891356353100011542 /* CheckItViewController.xib */,
-				2868768A1356353100011542 /* Deck.h */,
-				2868768B1356353100011542 /* Deck.m */,
 				2868768C1356353100011542 /* GetHintViewController.h */,
 				2868768D1356353100011542 /* GetHintViewController.m */,
 				2868768E1356353100011542 /* UnlockItViewController.h */,
@@ -280,9 +270,7 @@
 				817264CF12AC4FF9007DD128 /* SwitchViewController.m in Sources */,
 				817264D412AC5092007DD128 /* SigninViewController.m in Sources */,
 				817264D712AC509F007DD128 /* UserProfileViewController.m in Sources */,
-				286876921356353100011542 /* Cards.m in Sources */,
 				286876931356353100011542 /* CheckItViewController.m in Sources */,
-				286876951356353100011542 /* Deck.m in Sources */,
 				286876961356353100011542 /* GetHintViewController.m in Sources */,
 				286876971356353100011542 /* UnlockItViewController.m in Sources */,
 			);
