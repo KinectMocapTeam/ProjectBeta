@@ -9,11 +9,13 @@
 #import "SwitchViewController.h"
 #import "UserProfileViewController.h"
 #import "SigninViewController.h"
+#import "UnlockItViewController.h"
 
 
 @implementation SwitchViewController
 @synthesize yellowViewController;
 @synthesize blueViewController;
+@synthesize unlockViewController;
 
 - (void)viewDidLoad
 {

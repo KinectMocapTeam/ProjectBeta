@@ -13,9 +13,8 @@
 
 -(void) viewDidLoad{
     [super viewDidLoad];
-    //create the tabBarController
-    //tabBarcontroller = [[UITabBarController alloc] init];
-    
+    //intialize tab bar
+    tabBar = [[UITabBar alloc] init];
     //put the tabBarController's view on the window
     
 }

@@ -9,9 +9,11 @@
 #import "SigninViewController.h"
 #import "UserProfileViewController.h"
 #import "SwitchViewController.h"
+#import "UnlockItViewController.h"
 @implementation SigninViewController
 @synthesize switchViewController;
 @synthesize yellowViewController;
+@synthesize unlockItViewController;
 
 - (IBAction)blueButtonPressed
 {
@@ -54,13 +56,17 @@
     {
         //switch to the user profile screen
         NSLog(@"Switching to USer profile Screen");
-        UserProfileViewController *userViewController = [[UserProfileViewController alloc] 
-                                                                initWithNibName:@"UserProfileView" 
-                                                                bundle:nil];
+        UnlockItViewController *unlockItViewController1= [[UnlockItViewController alloc] 
+                                                    initWithNibName:@"UnlockItViewController" 
+                                                    bundle:nil];
         
-        [self presentModalViewController:userViewController animated:YES];
-        [self.navigationController pushViewController:userViewController animated:YES];
-        [userViewController release];
+       /*UserProfileViewController *userViewController = [[UserProfileViewController alloc] 
+                                                                initWithNibName:@"UserProfileView" 
+                                                                bundle:nil];*/
+        
+        [self presentModalViewController:unlockItViewController1 animated:YES];
+        [self.navigationController pushViewController:unlockItViewController1 animated:YES];
+        [unlockItViewController1 release];
     }
 }
 -(void) viewDidLoad

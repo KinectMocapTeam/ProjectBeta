@@ -9,8 +9,7 @@
 #import <UIKit/UIKit.h>
 @class SwitchViewController;
 @class UserProfileViewController;
-
-
+@class UnlockItViewController;
 
 @interface SigninViewController : UIViewController {
 
@@ -32,13 +31,13 @@
     IBOutlet UITextField *login_password;
    
 UserProfileViewController *yellowViewController;
-@private
-    SwitchViewController *switchViewController;
-    
+SwitchViewController *switchViewController;
+UnlockItViewController *unlockViewController;
 }
 
 @property (retain) SwitchViewController *switchViewController;
 @property (retain) UserProfileViewController *yellowViewController;
+@property (retain, nonatomic) UnlockItViewController *unlockItViewController;
 
 - (IBAction)blueButtonPressed;
 -(IBAction) showWarning:(id)sender; 

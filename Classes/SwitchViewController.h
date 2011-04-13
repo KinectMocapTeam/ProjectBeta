@@ -10,13 +10,16 @@
 
 @class UserProfileViewController;
 @class SigninViewController;
+@class UnlockViewController;
 
 @interface SwitchViewController : UIViewController {
     UserProfileViewController *yellowViewController;
     SigninViewController *blueViewController;
+    UnlockViewController *unlockViewController;
 }
 @property (retain, nonatomic) UserProfileViewController *yellowViewController;
 @property (retain, nonatomic) SigninViewController *blueViewController;
+@property (retain, nonatomic) UnlockViewController *unlockViewController;
 
 - (IBAction)switchViews:(id)sender;
 - (IBAction)loginUserProfile:(id)sender;
