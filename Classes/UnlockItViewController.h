@@ -10,11 +10,6 @@
 
 
 @interface UnlockItViewController : UIViewController {
-	NSMutableArray *pickerArray;
-	NSMutableArray *suitArray;
-	NSString *card;
-	NSString *suit;
-	NSArray *imageViewArray;
     UITabBarController *tabBarController;
 }
 @end
