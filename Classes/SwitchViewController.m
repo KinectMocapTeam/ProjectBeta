@@ -18,7 +18,7 @@
 - (void)viewDidLoad
 {
     SigninViewController *blueController = [[SigninViewController alloc]
-										  initWithNibName:@"BlueView" bundle:nil];
+										  initWithNibName:@"SigninView" bundle:nil];
     self.blueViewController.switchViewController = self;
 
     self.blueViewController = blueController;
