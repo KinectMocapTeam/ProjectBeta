@@ -6,11 +6,12 @@
 //  Copyright 2010 __MyCompanyName__. All rights reserved.
 //
 
-#import "BlueViewController.h"
+#import "SigninViewController.h"
 
-@implementation BlueViewController
+@implementation SigninViewController
 @synthesize switchViewController;
 @synthesize yellowViewController;
+
 - (IBAction)blueButtonPressed
 {
     UIAlertView *alert = [[UIAlertView alloc]
@@ -57,7 +58,7 @@
                                                                 bundle:nil];
         
         [self presentModalViewController:userViewController animated:YES];
-      //  [self.navigationController pushViewController:yellowViewController animated:YES];
+        [self.navigationController pushViewController:userViewController animated:YES];
         [userViewController release];
     }
 }

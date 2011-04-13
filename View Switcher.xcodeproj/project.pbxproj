@@ -16,7 +16,7 @@
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		817264CF12AC4FF9007DD128 /* SwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 817264CE12AC4FF9007DD128 /* SwitchViewController.m */; };
-		817264D412AC5092007DD128 /* BlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 817264D312AC5092007DD128 /* BlueViewController.m */; };
+		817264D412AC5092007DD128 /* SigninViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 817264D312AC5092007DD128 /* SigninViewController.m */; };
 		817264D712AC509F007DD128 /* UserProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 817264D612AC509F007DD128 /* UserProfileViewController.m */; };
 		817264DD12AC52AC007DD128 /* BlueView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 817264DC12AC52AC007DD128 /* BlueView.xib */; };
 		817264DF12AC52C0007DD128 /* UserProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 817264DE12AC52C0007DD128 /* UserProfileView.xib */; };
@@ -36,8 +36,8 @@
 		32CA4F630368D1EE00C91783 /* View_Switcher_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View_Switcher_Prefix.pch; sourceTree = "<group>"; };
 		817264CD12AC4FF9007DD128 /* SwitchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchViewController.h; sourceTree = "<group>"; };
 		817264CE12AC4FF9007DD128 /* SwitchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchViewController.m; sourceTree = "<group>"; };
-		817264D212AC5092007DD128 /* BlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueViewController.h; sourceTree = "<group>"; };
-		817264D312AC5092007DD128 /* BlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueViewController.m; sourceTree = "<group>"; };
+		817264D212AC5092007DD128 /* SigninViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; path = SigninViewController.h; sourceTree = "<group>"; };
+		817264D312AC5092007DD128 /* SigninViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SigninViewController.m; sourceTree = "<group>"; };
 		817264D512AC509F007DD128 /* UserProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; path = UserProfileViewController.h; sourceTree = "<group>"; };
 		817264D612AC509F007DD128 /* UserProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserProfileViewController.m; sourceTree = "<group>"; };
 		817264DC12AC52AC007DD128 /* BlueView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BlueView.xib; sourceTree = "<group>"; };
@@ -66,8 +66,8 @@
 				1D3623250D0F684500981E51 /* View_SwitcherAppDelegate.m */,
 				817264CD12AC4FF9007DD128 /* SwitchViewController.h */,
 				817264CE12AC4FF9007DD128 /* SwitchViewController.m */,
-				817264D212AC5092007DD128 /* BlueViewController.h */,
-				817264D312AC5092007DD128 /* BlueViewController.m */,
+				817264D212AC5092007DD128 /* SigninViewController.h */,
+				817264D312AC5092007DD128 /* SigninViewController.m */,
 				817264D512AC509F007DD128 /* UserProfileViewController.h */,
 				817264D612AC509F007DD128 /* UserProfileViewController.m */,
 			);
@@ -193,7 +193,7 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* View_SwitcherAppDelegate.m in Sources */,
 				817264CF12AC4FF9007DD128 /* SwitchViewController.m in Sources */,
-				817264D412AC5092007DD128 /* BlueViewController.m in Sources */,
+				817264D412AC5092007DD128 /* SigninViewController.m in Sources */,
 				817264D712AC509F007DD128 /* UserProfileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

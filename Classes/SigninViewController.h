@@ -11,7 +11,7 @@
 @class UserProfileViewController;
 
 
-@interface BlueViewController : UIViewController {
+@interface SigninViewController : UIViewController {
 
     //number values for warning messages
     int CONNECTION_ERROR;

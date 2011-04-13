@@ -8,7 +8,7 @@
 
 #import "SwitchViewController.h"
 #import "UserProfileViewController.h"
-#import "BlueViewController.h"
+#import "SigninViewController.h"
 
 
 @implementation SwitchViewController
@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad
 {
-    BlueViewController *blueController = [[BlueViewController alloc]
+    SigninViewController *blueController = [[SigninViewController alloc]
 										  initWithNibName:@"BlueView" bundle:nil];
     self.blueViewController.switchViewController = self;
 
