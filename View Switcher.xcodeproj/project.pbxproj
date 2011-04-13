@@ -19,7 +19,7 @@
 		817264D412AC5092007DD128 /* BlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 817264D312AC5092007DD128 /* BlueViewController.m */; };
 		817264D712AC509F007DD128 /* UserProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 817264D612AC509F007DD128 /* UserProfileViewController.m */; };
 		817264DD12AC52AC007DD128 /* BlueView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 817264DC12AC52AC007DD128 /* BlueView.xib */; };
-		817264DF12AC52C0007DD128 /* YellowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 817264DE12AC52C0007DD128 /* YellowView.xib */; };
+		817264DF12AC52C0007DD128 /* UserProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 817264DE12AC52C0007DD128 /* UserProfileView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,7 +41,7 @@
 		817264D512AC509F007DD128 /* UserProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; path = UserProfileViewController.h; sourceTree = "<group>"; };
 		817264D612AC509F007DD128 /* UserProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserProfileViewController.m; sourceTree = "<group>"; };
 		817264DC12AC52AC007DD128 /* BlueView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BlueView.xib; sourceTree = "<group>"; };
-		817264DE12AC52C0007DD128 /* YellowView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YellowView.xib; sourceTree = "<group>"; };
+		817264DE12AC52C0007DD128 /* UserProfileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserProfileView.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* View_Switcher-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "View_Switcher-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,7 +111,7 @@
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* View_Switcher-Info.plist */,
 				817264DC12AC52AC007DD128 /* BlueView.xib */,
-				817264DE12AC52C0007DD128 /* YellowView.xib */,
+				817264DE12AC52C0007DD128 /* UserProfileView.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -177,7 +177,7 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				817264DD12AC52AC007DD128 /* BlueView.xib in Resources */,
-				817264DF12AC52C0007DD128 /* YellowView.xib in Resources */,
+				817264DF12AC52C0007DD128 /* UserProfileView.xib in Resources */,
 				282F9E701353E57D00C130A4 /* icon.png in Resources */,
 				282F9E8A1354927A00C130A4 /* icon.png in Resources */,
 			);

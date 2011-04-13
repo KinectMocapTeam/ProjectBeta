@@ -53,7 +53,7 @@
         //switch to the user profile screen
         NSLog(@"Switching to USer profile Screen");
         UserProfileViewController *userViewController = [[UserProfileViewController alloc] 
-                                                                initWithNibName:@"YellowView" 
+                                                                initWithNibName:@"UserProfileView" 
                                                                 bundle:nil];
         
         [self presentModalViewController:userViewController animated:YES];
