@@ -17,7 +17,7 @@
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		817264CF12AC4FF9007DD128 /* SwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 817264CE12AC4FF9007DD128 /* SwitchViewController.m */; };
 		817264D412AC5092007DD128 /* BlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 817264D312AC5092007DD128 /* BlueViewController.m */; };
-		817264D712AC509F007DD128 /* YellowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 817264D612AC509F007DD128 /* YellowViewController.m */; };
+		817264D712AC509F007DD128 /* UserProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 817264D612AC509F007DD128 /* UserProfileViewController.m */; };
 		817264DD12AC52AC007DD128 /* BlueView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 817264DC12AC52AC007DD128 /* BlueView.xib */; };
 		817264DF12AC52C0007DD128 /* YellowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 817264DE12AC52C0007DD128 /* YellowView.xib */; };
 /* End PBXBuildFile section */
@@ -38,8 +38,8 @@
 		817264CE12AC4FF9007DD128 /* SwitchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchViewController.m; sourceTree = "<group>"; };
 		817264D212AC5092007DD128 /* BlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueViewController.h; sourceTree = "<group>"; };
 		817264D312AC5092007DD128 /* BlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueViewController.m; sourceTree = "<group>"; };
-		817264D512AC509F007DD128 /* YellowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YellowViewController.h; sourceTree = "<group>"; };
-		817264D612AC509F007DD128 /* YellowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YellowViewController.m; sourceTree = "<group>"; };
+		817264D512AC509F007DD128 /* UserProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; path = UserProfileViewController.h; sourceTree = "<group>"; };
+		817264D612AC509F007DD128 /* UserProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserProfileViewController.m; sourceTree = "<group>"; };
 		817264DC12AC52AC007DD128 /* BlueView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BlueView.xib; sourceTree = "<group>"; };
 		817264DE12AC52C0007DD128 /* YellowView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YellowView.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* View_Switcher-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "View_Switcher-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
@@ -68,8 +68,8 @@
 				817264CE12AC4FF9007DD128 /* SwitchViewController.m */,
 				817264D212AC5092007DD128 /* BlueViewController.h */,
 				817264D312AC5092007DD128 /* BlueViewController.m */,
-				817264D512AC509F007DD128 /* YellowViewController.h */,
-				817264D612AC509F007DD128 /* YellowViewController.m */,
+				817264D512AC509F007DD128 /* UserProfileViewController.h */,
+				817264D612AC509F007DD128 /* UserProfileViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -194,7 +194,7 @@
 				1D3623260D0F684500981E51 /* View_SwitcherAppDelegate.m in Sources */,
 				817264CF12AC4FF9007DD128 /* SwitchViewController.m in Sources */,
 				817264D412AC5092007DD128 /* BlueViewController.m in Sources */,
-				817264D712AC509F007DD128 /* YellowViewController.m in Sources */,
+				817264D712AC509F007DD128 /* UserProfileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

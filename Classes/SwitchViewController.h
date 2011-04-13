@@ -8,14 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@class YellowViewController;
+@class UserProfileViewController;
 @class BlueViewController;
 
 @interface SwitchViewController : UIViewController {
-    YellowViewController *yellowViewController;
+    UserProfileViewController *yellowViewController;
     BlueViewController *blueViewController;
 }
-@property (retain, nonatomic) YellowViewController *yellowViewController;
+@property (retain, nonatomic) UserProfileViewController *yellowViewController;
 @property (retain, nonatomic) BlueViewController *blueViewController;
 
 - (IBAction)switchViews:(id)sender;

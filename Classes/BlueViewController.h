@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 @class SwitchViewController;
-@class YellowViewController;
+@class UserProfileViewController;
 
 
 @interface BlueViewController : UIViewController {
@@ -30,14 +30,14 @@
     IBOutlet UITextField *login_username;
     IBOutlet UITextField *login_password;
    
-YellowViewController *yellowViewController;
+UserProfileViewController *yellowViewController;
 @private
     SwitchViewController *switchViewController;
     
 }
 
 @property (retain) SwitchViewController *switchViewController;
-@property (retain) YellowViewController *yellowViewController;
+@property (retain) UserProfileViewController *yellowViewController;
 
 - (IBAction)blueButtonPressed;
 -(IBAction) showWarning:(id)sender; 

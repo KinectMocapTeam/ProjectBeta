@@ -6,10 +6,10 @@
 //  Copyright 2010 __MyCompanyName__. All rights reserved.
 //
 
-#import "YellowViewController.h"
+#import "UserProfileViewController.h"
 
 
-@implementation YellowViewController
+@implementation UserProfileViewController
 
 - (IBAction)yellowButtonPressed
 {

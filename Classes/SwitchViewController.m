@@ -7,7 +7,7 @@
 //
 
 #import "SwitchViewController.h"
-#import "YellowViewController.h"
+#import "UserProfileViewController.h"
 #import "BlueViewController.h"
 
 

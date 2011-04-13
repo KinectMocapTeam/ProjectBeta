@@ -52,13 +52,13 @@
     {
         //switch to the user profile screen
         NSLog(@"Switching to USer profile Screen");
-        YellowViewController *yellowViewController = [[YellowViewController alloc] 
+        UserProfileViewController *userViewController = [[UserProfileViewController alloc] 
                                                                 initWithNibName:@"YellowView" 
                                                                 bundle:nil];
         
-        [self presentModalViewController:yellowViewController animated:YES];
+        [self presentModalViewController:userViewController animated:YES];
       //  [self.navigationController pushViewController:yellowViewController animated:YES];
-        [yellowViewController release];
+        [userViewController release];
     }
 }
 -(void) viewDidLoad
