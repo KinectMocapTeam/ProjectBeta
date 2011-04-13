@@ -20,6 +20,5 @@
 
 - (IBAction)switchViews:(id)sender;
 - (IBAction)loginUserProfile:(id)sender;
-- (void)switchView:(id)sender;
 
 @end

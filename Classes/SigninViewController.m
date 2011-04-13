@@ -7,7 +7,8 @@
 //
 
 #import "SigninViewController.h"
-
+#import "UserProfileViewController.h"
+#import "SwitchViewController.h"
 @implementation SigninViewController
 @synthesize switchViewController;
 @synthesize yellowViewController;
@@ -66,7 +67,7 @@
 {
     NSLog(@"Loading Login Screen");
     switchViewController =
-    [[SwitchViewController alloc] initWithNibName:@"BlueView"
+    [[SwitchViewController alloc] initWithNibName:@"SigninView"
                                          bundle:nil];
     self.switchViewController = switchViewController;
     //initialize warning messages 
