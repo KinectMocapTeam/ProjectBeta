@@ -9,8 +9,8 @@
 #import <UIKit/UIKit.h>
 
 
-@interface UserProfileViewController : UITabBarController{
-
+@interface UserProfileViewController : UIViewController{
+    
+    IBOutlet UITabBar *tabBar;
 }
-- (IBAction)yellowButtonPressed;
 @end

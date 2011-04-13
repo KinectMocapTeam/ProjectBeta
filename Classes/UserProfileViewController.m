@@ -11,18 +11,14 @@
 
 @implementation UserProfileViewController
 
-- (IBAction)yellowButtonPressed
-{
-	UIAlertView *alert = [[UIAlertView alloc]
-						  initWithTitle:@"Yellow View Button Pressed"
-						  message:@"You pressed the button on the yellow view"
-						  delegate:nil
-						  cancelButtonTitle:@"Yep, I did."
-						  otherButtonTitles:nil];
-	[alert show];
-	[alert release];
+-(void) viewDidLoad{
+    [super viewDidLoad];
+    //create the tabBarController
+    //tabBarcontroller = [[UITabBarController alloc] init];
+    
+    //put the tabBarController's view on the window
+    
 }
-
 - (void)didReceiveMemoryWarning {
     // Releases the view if it doesn't have a superview.
     [super didReceiveMemoryWarning];
